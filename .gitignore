@@ -32,7 +32,6 @@ logs/
 eval_results/
 videos/
 yolov*.pt
-yolo_emergency_model.pt
 
 # IDE / Editor
 .vscode/

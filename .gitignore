@@ -1,0 +1,50 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+
+# PyTorch, TensorRT & Model weights
+*.pt
+*.engine
+*.onnx
+*.trt
+
+# Project specifics
+logs/
+eval_results/
+videos/
+yolov*.pt
+yolo_emergency_model.pt
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS & Application Temp Files
+.DS_Store
+Thumbs.db
+~$*
+
+
+# Antigravity/Gemini
+.gemini/

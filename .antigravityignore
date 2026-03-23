@@ -1,0 +1,10 @@
+# Exclude large binaries, models, videos and generated logs from AI context
+logs/
+eval_results/
+videos/
+__pycache__/
+*.pt
+*.engine
+*.onnx
+PPT/
+.git/
